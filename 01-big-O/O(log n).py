@@ -12,7 +12,7 @@ def binary_search(list, numberToFind):
             high = mid - 1
         else:
             low = mid + 1
-    return 'Not found'
+    return None
 
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
